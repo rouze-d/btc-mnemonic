@@ -31,6 +31,8 @@ pip3 install argparse
 pip3 install mnemonic
 pip3 install bit
 ```
+in line 158, change "length = 12" for how many words you want.
+
 Download letest bitcon address with balance
 here : http://addresses.loyce.club/
 
