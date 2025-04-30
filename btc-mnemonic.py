@@ -84,7 +84,7 @@ def PrivateKeyFromMnemonic(Magic):
         compressedAddr1 = bit_com1.address
         uncompressedAddr1 = bit_uncom1.address
 
-        sAddr1 = key.segwit_address
+        sAddr1 = key1.segwit_address
 
         public_key1 = bit.PrivateKey(wifCompressed1).public_key
         public_key1 = ripemd160_sha256(public_key1)
@@ -111,7 +111,7 @@ def PrivateKeyFromMnemonic(Magic):
         compressedAddr2 = bit_com2.address
         uncompressedAddr2 = bit_uncom2.address
 
-        sAddr2 = key.segwit_address
+        sAddr2 = key2.segwit_address
 
         public_key2 = bit.PrivateKey(wifCompressed2).public_key
         public_key2 = ripemd160_sha256(public_key2)
@@ -137,7 +137,7 @@ def PrivateKeyFromMnemonic(Magic):
         compressedAddr3 = bit_com3.address
         uncompressedAddr3 = bit_uncom3.address
 
-        sAddr3 = key.segwit_address
+        sAddr3 = key3.segwit_address
 
         public_key3 = bit.PrivateKey(wifCompressed3).public_key
         public_key3 = ripemd160_sha256(public_key3)
